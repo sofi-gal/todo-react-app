@@ -1,0 +1,23 @@
+.list-item{
+    padding: 1rem 1rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,111,253,1) 50%, rgba(69,102,252,1) 100%);
+    color: white;
+    font-weight: bold;
+    height: auto;
+    border-radius: 1rem;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.delete{
+    font-weight: bold;
+    color: #ffff;
+    border : none;
+    float: right;
+    background: transparent;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 30px;
+}

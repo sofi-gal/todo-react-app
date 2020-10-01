@@ -1,0 +1,36 @@
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+input{
+    border: 2px solid pink;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.button{
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
+    border: 2px solid transparent;
+    width: 20%;
+    margin: 2rem auto;
+}
+
+.button:hover{
+    border: 2px solid lightcoral;
+    transition: ease-in-out .2s;
+}
+    
