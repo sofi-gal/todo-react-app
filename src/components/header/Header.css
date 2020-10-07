@@ -1,8 +1,10 @@
 .card-header{
-    width: 50%;
+    width: 100%;
     justify-content: center;
     display: flex;
     align-items: center;
     margin: auto;
     text-align: center;
+    background: rgb(35, 22, 112);
+    color: white;
 }
