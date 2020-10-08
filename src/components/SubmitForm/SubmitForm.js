@@ -19,7 +19,7 @@ class SubmitForm extends React.Component {
           value={this.state.term}
           onChange={(e) => this.setState({term: e.target.value})}
         />
-        <button className='button'>Submit</button>
+        <button className='button'>Cargar</button>
       </form>
     );
   }
